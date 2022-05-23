@@ -11,7 +11,7 @@ abstract class IMovieService {
 
 class MovieService extends IMovieService {
   MovieService(super.networkManager);
-  final String baseUrl = "https://api.themoviedb.org/";
+  final String baseUrl = "";
 
   @override
   Future<MovieModel?> getAllData() async {
